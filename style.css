@@ -1,0 +1,268 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+}
+
+header {
+  display: block;
+}
+
+div {
+  display: block;
+}
+
+nav {
+  display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font: normal normal 16px Arial, sans-serif;
+  line-height: 1.5;
+  color: #000000;
+}
+
+main {
+  display: block;
+}
+
+section {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0px;
+}
+
+footer {
+  display: block;
+}
+
+.header {
+  padding: 10px;
+  background-color: #606060;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font: normal normal 18px Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: auto;
+  cursor: pointer;
+  user-select: none;
+  z-index: 15;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+@media (max-width: 1440px){
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.section-profile {
+  display: flex;
+  justify-content:space-around
+
+}
+
+.section-profile-logo {
+  width: 191px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.main-title {
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px;
+  color: #000000;
+  font: normal bold 20px Arial, sans-serif;
+  letter-spacing: 10px;
+  line-height: 50px;
+  word-spacing: 3px;
+}
+
+.section-title {
+  margin-bottom: 25px;
+  font: normal bold 22px Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #b30059;
+}
+
+#name {
+  text-align: center;
+  font: normal bold 30px Arial, sans-serif;
+  line-height: 30px;
+  letter-spacing: 8px;
+}
+
+#surname {
+  text-align: center;
+  font: normal bold 30px Arial, sans-serif;
+  line-height: 30px;
+  letter-spacing: 8px;
+}
+
+.section {
+  width: calc(50% - 30px);
+  padding: 20px;
+  padding-bottom: 30px;
+  border-bottom: 10px solid #888888;
+  line-height: 1.5;
+}
+
+.section-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 20px;
+}
+
+.section-education, .section-work-experience {
+  border-bottom: 0;
+}
+
+.section-link {
+  padding-left: 20px;
+  text-decoration: none;
+  font: normal normal 18px Arial, sans-serif;
+  color: #000000;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  padding: 20px;
+  background-color: #606060;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font: normal normal 16px Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.github {
+  color: #FFFFFF;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url(./assets/cvg/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
