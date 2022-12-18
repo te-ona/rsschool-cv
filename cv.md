@@ -36,7 +36,7 @@ function multiply(a, b){
 
 ## Work-experience
 
-[https://te-ona.github.io/rsschool-cv/][CV]
+[CV](https://te-ona.github.io/rsschool-cv/)
 
 ***
 
